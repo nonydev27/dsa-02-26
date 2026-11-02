@@ -28,6 +28,7 @@ public class Main{
         for(int i=0; i<friends.length; i++){
             System.out.println("Enter your friend's name: "+(i+1)+ ":");
             friends[i] = scanner.nextLine();
+
         }
 
         System.out.println("Your friends are: ");
