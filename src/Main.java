@@ -23,6 +23,10 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of friends you have: ");
         int arraysize = scanner.nextInt();
+
+        //fixed error here
+        scanner.nextLine();
+
         String[] friends = new String[arraysize];
 
         for(int i=0; i<friends.length; i++){
