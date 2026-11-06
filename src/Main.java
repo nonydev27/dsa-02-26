@@ -27,7 +27,7 @@ public class Main{
         //fixed error here
         scanner.nextLine();
 
-        String[] friends = new String[arraysize];
+         String[] friends = new String[arraysize];
 
         for(int i=0; i<friends.length; i++){
             System.out.println("Enter your friend's name: "+(i+1)+ ":");
